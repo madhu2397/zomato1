@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    
+  }
+
+body{
+    background-color: white;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+    .h-container {
+      background-color:white;
+      height: 40px;
+      text-align: center;
+    }
+    .search-restaurant{
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .banner{
+      padding:10px;
+      
+    }
+   
+    .row1{
+        text-align: left;
+    }
+
+    .city{
+        width:20%;
+        border-radius:5px;
+        height:40px;
+    }
+
+    .search-rest{
+        width:60%;
+        border-radius:5px;
+        height:40px;
+    }
+
+    .search-btn{
+        color:white;
+        background-color: red;
+        width:10%;
+        border: 1px red;
+        border-radius: 5px;
+        height:40px;
+        margin-top: 10px;
+    }
+
+    .search-btn:hover{
+        background-color: green;
+        color:white;
+    }
+
+    .tagline{
+        font-size: 30px;
+        margin-top:20px;
+        font-style: italic;
+    }
+
+    .widget{
+        width:30%;
+        float:right;
+        background-color: lightgrey;
+        height:auto;
+        margin-right:20px;
+        margin-bottom: 10px;
+    }
+
+    .widget1{
+        margin:10px;
+        display: inline-block;
+        width:95%;
+        height: 95%;
+        background-color: white;
+        padding:10px;
+    }
+
+    h4{
+        width:100%;
+        color:green;
+        margin-top: 100px;
+        text-align: center;
+        
+    }
+
+    h3{
+        text-align: center;
+        color:green;
+        margin-top: 100px;
+        text-shadow: 1px 1px;
+    }
+
+    .search-del{
+        height:40px;
+        width:75%;
+        border-style: none;
+        
+    }
+
+    .detect-btn{
+        height:40px;
+        width:20%;
+        color:black;
+        background-color: lightgray;
+        border: 1px black;
+        border-radius: 5px;
+        float: right;
+        
+    }
+
+    .location{
+        border: solid black 1px;
+        border-radius: 5px;
+        height:auto;
+    }
+
+    .order-btn{
+        width:100%;
+        height:40px;
+        background-color: darkkhaki;
+        color:white;
+    }
+    .order-btn:hover{
+        background-color: black;
+        color:white;
+        font-style: oblique;
+    }
+
+
+    a{
+        font-style: oblique;
+    }
+
+
+
+    
+    .categories{
+        width:100%;
+        background-color: lightgray;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .category-list{
+        list-style: none;
+        margin: 20px;
+        margin-left: 20%;
+    }
+
+    .collection{
+        width:68%;
+        
+    }
+
+    .poster{
+        background-image: url(img/foodposter1.jpg); 
+        border-image-repeat:no-repeat center fixed; 
+        border-image-width: 100%;
+        background-repeat: no-repeat;
+        image-resolution: auto;
+        color: white;
+        border-image-width: auto;
+         
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-shadow: black;
+    }
+
+    .img-with-text {
+        text-align: justify;
+        width: [width of img];
+
+    }
+    
+    .img-with-text img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .locality-list{
+        list-style: none;
+        text-align: left;
+        background-color: white;
+        color:black;
+    }
+
+    .localities{
+        background-color: lightgray;
+        color:black;
+        height: auto;
+        margin:10px;
+    }
+
+    .city2{
+        width:auto;
+        height:50px;
+        border-radius: 5px;
+        float: right;
+        padding: 10px;
+        margin: 10px;
+    }
+    .ff{
+        background-color: black;
+        height: auto;
+        color: white;
+    }
+    .footer-wrapper{
+        height: auto;
+        margin: 100px;
+    }
+
+
+
+    @media only screen and (max-width: 760px) {
+        input {
+        width:100%;
+      }
+
+      .city{
+          width:100%;
+          border-radius:5px;
+          height:40px;
+          margin-right:10px;
+      }
+
+    
+      .h-container {
+        background-color:white;
+        height: auto;
+        text-align: center;
+      }
+
+      .row1{
+          
+          text-align: left;
+          display: inline-block;
+          vertical-align: center;
+          margin:auto;
+
+         
+      }
+
+      .min{
+          width:50%;
+          text-align: center;
+          height: center;
+      }
+
+      .l1{
+          width:100%;
+          text-align: center;
+      }
+
+      .search-restaurant{
+          width:100%;
+      }
+
+      .search-rest{
+        width:100%;
+        border-radius:5px;
+        height:40px;
+        margin-top: 10px;
+        }
+
+        .search-btn{
+            color:white;
+            background-color: red;
+            width:100%; 
+            margin-bottom: 10px;
+            
+        }
+
+        .search-btn{
+            color:white;
+            background-color: red;
+            width:100%;
+            border: 1px red;
+            border-radius: 5px;
+            height:40px;
+            margin-top: 10px;
+        }
+
+        .widget{
+            
+            width:90%;
+            height:auto;
+            background-color: lightgrey;
+            height:300px;
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        .widget1{
+           
+            width:95%;
+            height:95%;
+            background-color: white;
+            text-align: center;
+
+        }
+
+        .collection{
+            width:100%;
+            
+        }
+
+
+        .category-list{
+            margin-left: 0px;
+           
+            
+        }
+
+        .detect-btn{
+            height:40px;
+            width:20%;
+            color:black;
+            background-color: white;
+            border-left: solid black 1px;
+            border-radius: 0px;
+            float: right;
+            
+        }
+        
+        
+
+    }
+
